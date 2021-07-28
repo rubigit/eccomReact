@@ -2,6 +2,8 @@ npm run start
 
 npm run build
 
+
+
 class 6 may 27
 
 : change html
@@ -11,6 +13,16 @@ style = {{color: `red`}}
 <li className="swatch" style = {{backgroundColor: `rgb(0,0,0)`}}>
 </li>
 
-class 7 may 27 
+class 7 may 27 : divide into components
 
-divide into components
+
+
+
+
+
+<main class="products">
+Filters in layout
+
+install antd: for paginations
+
+
