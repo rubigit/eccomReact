@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import Layout from 'components/Layout'
-import SearchResults from 'components/SearchResults'
+// import SearchResults from 'components/SearchResults'
+import ProductRow from 'components/ProductRow'
+import filtericon from 'img/filter-icon-01-01.png'
+import logo from 'img/logo-landscape-light-03.svg'
+// style={{ backgroundImage: `url(${filtericon})` }}
 
 
 const Products = ({ data }) => {
@@ -19,17 +23,19 @@ const Products = ({ data }) => {
 
     return (
         <Layout>
-
+            <h1> my onsale</h1>
+            <div className="deleteclass"></div>
             <form className="filters">
                 <button type="button" className="filter-opt-button Content FilterOpen">Filter options</button>
                 {/* <!-- <h2 className="">Filters</h2> --> */}
                 {/* <!-- toggle hide classs --> */}
-                <div className="filter-btn-collectio hide">
+                <div className="filter-btn-collectio ">  {/* hide */}
                     <button type="button" id="btnClearFilter" className="clear-filter ">Clear all filters</button>
                     <button type="button" id="btnApplyFilter" className="aplly-filter ">Apply Filters</button>
                 </div>
                 {/* <!-- toggle hide classs --> */}
-                <div className="filter-options hide">
+
+                <div className="filter-options ">  {/* hide */}
                     <fieldset>
                         <legend>Lamp category</legend>
                         <ul id="filterCategory" className="filter-list">
@@ -102,9 +108,9 @@ const Products = ({ data }) => {
                     </div>
                 </div>
             </section>
+            <ProductRow />
 
-
-            <SearchResults result={searchResult} />
+            {/* <SearchResults result={searchResult} /> */}
         </Layout>
     )
 }

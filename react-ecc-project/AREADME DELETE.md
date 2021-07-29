@@ -13,6 +13,10 @@ style = {{color: `red`}}
 <li className="swatch" style = {{backgroundColor: `rgb(0,0,0)`}}>
 </li>
 
+
+<li className="swatch" style = {{backgroundImage: `img/something.jpg`}}>
+
+
 class 7 may 27 : divide into components
 
 
