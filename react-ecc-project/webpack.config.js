@@ -36,7 +36,7 @@ module.exports = {
         }
     },
     output: {
-        publicPath: `/`
+        publicPath: `auto`
     },
     resolve: {
         alias: {

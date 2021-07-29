@@ -7,10 +7,12 @@
     "start": "webpack serve --mode development --history-api-fallback",
     "build": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react"
+  ],
+  "author": "Rubi C",
   "license": "ISC",
-  "description": "",
+  "description": "A react project eccomerce website",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
